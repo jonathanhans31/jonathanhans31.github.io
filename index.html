@@ -22,7 +22,20 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+  .authors{
+    font-size: 11pt;
+  }
+  .authors .main{
+    font-weight: bold;
+  }
+  div .row{
+    margin-bottom: 10px;
+  }  
 
+  </style>
+  }
+  }
 </head>
 
 <body>
@@ -106,7 +119,7 @@
                 <li>Graduated with 4.19 out of 4.3 GPA.</li>
                 <li>Worked on facial attribute transformation for human using generative adversarial networks (GAN).</li>
                 <li>Thesis: Controllable and Identity-Aware Facial Attribute Transformation using Generative Adversarial Networks.</li>
-                <li>Submitted 2 publications (IEEE Access, IEEE TCYB).</li>
+                <li>Published two journal publications (IEEE Access 2019 and IEEE TCYB 2021).</li>
                 <li>Best Master Thesis Award IICM 2019.</li>
               </ul> 
             </div>
@@ -129,12 +142,12 @@
               <h4>Research Engineer</h4>
               <h5>Feb 2019 - Present</h5>
               <p><em>Inventec Corp., Taipei, Taiwan.</em></p>
-              <ul>
+              <ul>                 
                 <li>Work on realistic locomotion controller for quadrupeds through combining Deep RL and GAN (Accepted to SIGGRAPH 2020).</li>
                 <li>Won first place of USAID intelligent forecasting competition 2020.</li>
                 <li>Develop machine-learning algorithm for self-monitoring blood pressure measurement through ECG and PPG signals.</li>
-                <li>Implement order forecasting system using deep sequence model for inventory optimization.</li>
-                <li>5+ issued and pending patents.</li>
+                <li>Implement order forecasting system using deep sequence model for inventory optimization (Accepted to APSIPA 2021).</li>
+                <li>6+ issued and pending patents.</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -142,8 +155,7 @@
               <h5>July 2018 - Sep 2018</h5>
               <p><em>Industrial Technology Research Institute, Zhudong, Taiwan.</em></p>
               <ul>
-                <li>Performed data cleaning and preprocessing on MIDI format.</li>
-                <li>Developed a pipeline to encode and decode musical notes representation for the neural networks.</li>
+                <li>Designed a pipeline to clean, preprocess, encode and decode MIDI files for neural networks.</li>
                 <li>Developed MAC- Net: to compose a melody and an accompaniment using LSTM as the backbone.</li>
               </ul>
             </div>
@@ -159,15 +171,47 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/projects/ciagan-tycb2021/thumb.jpg" style="width:100%"/>
+            </div>
+            <div class="col-lg-8" style="text-align:left;">
+              <h4>Controllable and Identity-Aware Facial Attribute Transformation</h4>
+              <h5>IEEE Transactions on Cybernetics 2021</h5>
+              <p class="authors">
+                Daniel Stanley Tan*, <font class="main">Jonathan Hans Soeseno*</font>, and Kai-Lung Hua  
+              </p>
+              <p>(*Denotes equal contribution)</p>
+
+              <p>
+                [<a href="https://www.cambridge.org/core/journals/apsipa-transactions-on-signal-and-information-processing/article/demystifying-data-and-ai-for-manufacturing-case-studies-from-a-major-computer-maker/740EB00B85FFE069C47D1A1A401F221B">Paper</a>] 
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/projects/forecasting-apsipa2021/thumb.jpg" style="width:100%"/>
+            </div>
+            <div class="col-lg-8" style="text-align:left;">
+              <h4>Demystifying Data and AI for Manufacturing: Case Studies from a Major Computer Maker</h4>
+              <h5>APSIPA 2021</h5>
+              <p class="authors">Yi-Chun Chen, Bo-Huei He, Shih-Sung Lin, <font style="font-weight:bold">Jonathan Hans Soeseno</font>, Daniel Stanley Tan, Trista Pei-Chun Chen, and Wei-Chao Chen</p>
+              </p>
+
+              <p>
+                [<a href="https://www.cambridge.org/core/journals/apsipa-transactions-on-signal-and-information-processing/article/demystifying-data-and-ai-for-manufacturing-case-studies-from-a-major-computer-maker/740EB00B85FFE069C47D1A1A401F221B">Paper</a>] 
+              </p>
+            </div>
+          </div>
 
           <div class="row">
             <div class="col-lg-4">
               <img src="assets/projects/forecasting-usaid2020/thumb.jpg" style="width:100%"/>
             </div>
             <div class="col-lg-8" style="text-align:left;">
-              <h3>Intelligent Forecasting Competition</h3>
+              <h4>Intelligent Forecasting Competition</h4>
               <h5>USAID Competition 2020</h5>
-              <p><font style="font-weight: bold;">Jonathan Hans Soeseno*</font>, Davide Burba*, Trista Pei-Chun Chen</p>
+              <p class="authors"><font class="main">Jonathan Hans Soeseno*</font>, Davide Burba*, Trista Pei-Chun Chen</p>
               <p>(*Denotes equal contribution)</p>
 
               <p>
@@ -182,9 +226,9 @@
               <img src="assets/projects/carl-siggraph2020/thumb.jpg" style="width:100%"/>
             </div>
             <div class="col-lg-8" style="text-align:left;">
-              <h3>CARL: Controllable Agent with Reinforcement Learning for Quadruped Locomotion</h3>
+              <h4>CARL: Controllable Agent with Reinforcement Learning for Quadruped Locomotion</h4>
               <h5>ACM Transactions on Graphics (SIGGRAPH 2020)</h5>
-              <p>Ying-Sheng Luo*, <font style="font-weight: bold;">Jonathan Hans Soeseno*</font>, Trista Pei-Chun Chen, Wei-Chao Chen</p>
+              <p class="authors">Ying-Sheng Luo*, <font class="main">Jonathan Hans Soeseno*</font>, Trista Pei-Chun Chen, Wei-Chao Chen</p>
               <p>(*Joint first authors)</p>
               <p>
               [<a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392433">Paper</a>] 
@@ -200,9 +244,9 @@
               <img src="assets/projects/face-access2019/thumb.jpg" style="width:100%"/>
             </div>
             <div class="col-lg-8" style="text-align:left;">
-              <h3>Faster, Smaller, and Simpler Model for Multiple Facial Attributes Transformation</h3>
+              <h4>Faster, Smaller, and Simpler Model for Multiple Facial Attributes Transformation</h4>
               <h5>IEEE Access 2019</h5>
-              <p><font style="font-weight: bold;">Jonathan Hans Soeseno</font>, Daniel Stanley Tan, Wen-Yin Chen, Kai-Lung Hua</p>              
+              <p class="authors"><font class="main">Jonathan Hans Soeseno</font>, Daniel Stanley Tan, Wen-Yin Chen, Kai-Lung Hua</p>              
               <p>
               [<a href="https://ieeexplore.ieee.org/document/8667297">Paper</a>] 
               [Code available upon request] 
@@ -216,7 +260,7 @@
                 <a href="https://soundcloud.com/jonathan-hans-860440185" title="Jonathan Hans" target="_blank" style="color: #cccccc; text-decoration: none;">Jonathan Hans</a> · <a href="https://soundcloud.com/jonathan-hans-860440185/01-sample" title="01 Sample" target="_blank" style="color: #cccccc; text-decoration: none;">01 Sample</a></div>
             </div>
             <div class="col-lg-8" style="text-align:left;">
-              <h3>Music Generation using Deep Learning</h3>
+              <h4>Music Generation using Deep Learning</h4>
               <h5>Deep Learning Engineer Internship at ITRI 2018</h5>              
               <p>[<a href="https://medium.com/mac-net/music-generation-using-deep-learning-6595107d22f7">Article</a>]</p>
             </div>
